@@ -14,7 +14,6 @@ namespace SettlementBookingSystem.Application.Bookings.Commands
     {
         private readonly IBookingService _bookingService;
         private readonly ILogger _logger;
-        private readonly IMapper _mapper;
 
         public CreateBookingCommandHandler(IBookingService bookingService, ILogger<CreateBookingCommandHandler> logger)
         {
